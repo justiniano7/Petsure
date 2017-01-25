@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PetSure.API", "PetSure\PetSure.API.csproj", "{AC4F67AD-3374-42AB-B54C-7957549F6652}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "PetSure.Website", "..\..\WebSites\PetSure.Website\", "{7D9EA1CA-F2AF-4FEB-9C61-F2698607727E}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.2"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_57938"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\WebSites\PetSure.Website\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_57938\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_57938"
+		Release.AspNetCompiler.PhysicalPath = "..\..\WebSites\PetSure.Website\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_57938\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "57938"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Constants", "Constants\Constants.csproj", "{771B437D-84F1-4338-B9FF-4183FF847DC2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models", "Models\Models.csproj", "{5610A34A-7DFA-4DEC-8CF0-CF459985DB87}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{7B28AF6C-9C83-407E-A398-A8070ADD7B7B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AC4F67AD-3374-42AB-B54C-7957549F6652}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC4F67AD-3374-42AB-B54C-7957549F6652}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC4F67AD-3374-42AB-B54C-7957549F6652}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC4F67AD-3374-42AB-B54C-7957549F6652}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D9EA1CA-F2AF-4FEB-9C61-F2698607727E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D9EA1CA-F2AF-4FEB-9C61-F2698607727E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D9EA1CA-F2AF-4FEB-9C61-F2698607727E}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D9EA1CA-F2AF-4FEB-9C61-F2698607727E}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{771B437D-84F1-4338-B9FF-4183FF847DC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{771B437D-84F1-4338-B9FF-4183FF847DC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{771B437D-84F1-4338-B9FF-4183FF847DC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{771B437D-84F1-4338-B9FF-4183FF847DC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5610A34A-7DFA-4DEC-8CF0-CF459985DB87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5610A34A-7DFA-4DEC-8CF0-CF459985DB87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5610A34A-7DFA-4DEC-8CF0-CF459985DB87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5610A34A-7DFA-4DEC-8CF0-CF459985DB87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B28AF6C-9C83-407E-A398-A8070ADD7B7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B28AF6C-9C83-407E-A398-A8070ADD7B7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B28AF6C-9C83-407E-A398-A8070ADD7B7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B28AF6C-9C83-407E-A398-A8070ADD7B7B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
